@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Index, Trening } from "./pages";
+import {  Trening } from "./pages/201";
 
 function App() {
   return (

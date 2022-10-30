@@ -7,12 +7,11 @@ export function Index(treino: any) {
 }
 
 export function Trening(teino1: any) {
-  var nome = "andre";
   var possuiFaculdade = true;
 
-  console.log(nome, possuiFaculdade, nome);
+  console.log(possuiFaculdade);
 
-  var nome = "patrick",
+  let nome: string = "patrick",
     idade = 18,
     comidaFavorita = "pizza",
     time = "vasco";

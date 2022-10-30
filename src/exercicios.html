@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div>
+    Exercicios
+</div>
+
+</body>
+</html>
+<script>
+//criar função que retorne se e true ou false
+
+function vddoufalse(valor) {
+  const valorRecebido = valor;
+  return !!valorRecebido;
+}
+console.log(vddoufalse(0));
+
+//criar função do perimetro do quadarado
+function perimetroquadrado(lado) {
+  return lado * 4;
+}
+console.log(perimetroquadrado(4));
+
+//criar função que retorne nome completo
+
+function nomeSobrenome(nome, sobreNome) {
+  const nomecompleto = nome + " " + sobreNome;
+  return nomecompleto;
+}
+console.log(nomeSobrenome("Patrick", "Santos"));
+
+//criar uma função que verifique se o numero é pa
+
+function verifiquePar(numero) {
+  const resu = numero % 2;
+  if (resu === 0) {
+    return "par";
+  } else {
+    return "impar";
+  }
+}
+console.log(verifiquePar(5));
+
+//criar uma função quer retorne o tipo de dado
+
+function tipodeDado(dado) {
+  return typeof dado;
+}
+
+console.log(tipodeDado(nomeSobrenome));
+<script/>

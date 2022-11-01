@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Objeto</h1>
+  </body>
+</html>
+
+<script>
+  var calculadora = {
+    valor: 6,
+
+    soma(a, b) {
+      return a + b + this.valor;
+    },
+  };
+
+  console.log(calculadora.soma(6, 5));
+
+  var calculadora2 = {
+    multiplicacao: 8,
+  };
+
+  function multi(a, b) {
+    return a * b * calculadora2.multiplicacao;
+  }
+  console.log(multi(2, 2));
+</script>

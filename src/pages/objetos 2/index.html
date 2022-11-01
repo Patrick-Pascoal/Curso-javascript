@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>objetos 2</title>
+  </head>
+  <body>
+    <h1>Objetos 2</h1>
+  </body>
+</html>
+
+<script>
+  var nome = {
+    nome1: "Patrick",
+    nome2: "Ercik",
+    nome3: "Kelvi",
+  };
+  function cadastro(nome) {
+    return nome;
+  }
+
+  console.log(cadastro(nome.nome1));
+
+  var documentos = {
+    nome: "Patrick ",
+    sobrenome: "Santos",
+    idade: 29,
+    cpf: 14329782720,
+    nomeCompleto() {
+      return this.nome + this.sobrenome;
+    },
+  };
+
+  console.log(documentos.nomeCompleto());
+</script>

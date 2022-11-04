@@ -12,3 +12,9 @@ frutas.forEach(function(fruta,index){
 frutas.pop(); // vai remover o ultimo da lista
     
     console.log(frutas)})
+
+//Exemplo de for 
+var minimo=0
+var maximo=50
+
+for(minimo)

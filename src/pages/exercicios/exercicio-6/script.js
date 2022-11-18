@@ -35,3 +35,21 @@ const listaMap = lista.map((item, index) => {
     return { valor: item }
 })
 console.log(listaMap[0].valor)
+
+
+
+let casa = ["mesa", "computador", "cama"]
+
+casa.pop()
+casa.pop()
+casa.push("pessoas", "geladeira")
+
+
+
+console.log(casa)
+
+casa.filter((item) => {
+    item = !"mesa"
+})
+
+console.log(casa)
